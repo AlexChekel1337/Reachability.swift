@@ -231,7 +231,7 @@ public extension Reachability {
     }
 
     // MARK: - *** Connection test methods ***
-    @available(*, deprecated, message: "Please use `connection != .none`")
+    @available(*, deprecated, message: "Please use `connection != .unavailable`")
     var isReachable: Bool {
         return connection != .unavailable
     }
